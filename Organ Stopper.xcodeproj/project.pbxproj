@@ -79,6 +79,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2A850E52C1A853800F4C028 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0B0A12C1A810700F8D189 /* Organ.swift */,
+				D2B0B0A32C1A812500F8D189 /* Division.swift */,
+				D2B0B0A52C1A814300F8D189 /* Stop.swift */,
+				D2B0B0A72C1A815900F8D189 /* PipeLength.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2A850E62C1A854D00F4C028 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0B0972C1A7E9E00F8D189 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D2B0B0612C1A7E1200F8D189 = {
 			isa = PBXGroup;
 			children = (
@@ -102,14 +121,11 @@
 		D2B0B06C2C1A7E1200F8D189 /* Organ Stopper */ = {
 			isa = PBXGroup;
 			children = (
-				D2B0B0972C1A7E9E00F8D189 /* ContentView.swift */,
+				D2A850E62C1A854D00F4C028 /* Views */,
 				D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */,
 				D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */,
 				D2B0B0732C1A7E1500F8D189 /* Preview Content */,
-				D2B0B0A12C1A810700F8D189 /* Organ.swift */,
-				D2B0B0A32C1A812500F8D189 /* Division.swift */,
-				D2B0B0A52C1A814300F8D189 /* Stop.swift */,
-				D2B0B0A72C1A815900F8D189 /* PipeLength.swift */,
+				D2A850E52C1A853800F4C028 /* Model */,
 			);
 			path = "Organ Stopper";
 			sourceTree = "<group>";
