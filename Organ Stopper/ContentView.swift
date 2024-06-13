@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    let organ = Organ.samples[0]
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(organ.name)
+            List {
+                ForEach(organ.divisions, id: \.name) { division in
+                    Section {
+                        DisclosureGroup(division.name) {
+                            ForEach(division.stops, id: \.name) { stop in
+                                Text("\(stop.length.rawValue)' \(stop.name)")
+                            }
+                        }
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
