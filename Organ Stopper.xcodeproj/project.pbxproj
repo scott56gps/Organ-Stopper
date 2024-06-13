@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2B0B06E2C1A7E1200F8D189 /* Organ_StopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */; };
+		D2B0B0702C1A7E1200F8D189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B06F2C1A7E1200F8D189 /* ContentView.swift */; };
+		D2B0B0722C1A7E1500F8D189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */; };
+		D2B0B0752C1A7E1500F8D189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0B0742C1A7E1500F8D189 /* Preview Assets.xcassets */; };
+		D2B0B07F2C1A7E1500F8D189 /* Organ_StopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B07E2C1A7E1500F8D189 /* Organ_StopperTests.swift */; };
+		D2B0B0892C1A7E1500F8D189 /* Organ_StopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0882C1A7E1500F8D189 /* Organ_StopperUITests.swift */; };
+		D2B0B08B2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B08A2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2B0B07B2C1A7E1500F8D189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2B0B0622C1A7E1200F8D189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B0B0692C1A7E1200F8D189;
+			remoteInfo = "Organ Stopper";
+		};
+		D2B0B0852C1A7E1500F8D189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2B0B0622C1A7E1200F8D189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B0B0692C1A7E1200F8D189;
+			remoteInfo = "Organ Stopper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2B0B06A2C1A7E1200F8D189 /* Organ Stopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Organ Stopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperApp.swift; sourceTree = "<group>"; };
+		D2B0B06F2C1A7E1200F8D189 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2B0B0742C1A7E1500F8D189 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2B0B07A2C1A7E1500F8D189 /* Organ StopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Organ StopperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B0B07E2C1A7E1500F8D189 /* Organ_StopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperTests.swift; sourceTree = "<group>"; };
+		D2B0B0842C1A7E1500F8D189 /* Organ StopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Organ StopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B0B0882C1A7E1500F8D189 /* Organ_StopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperUITests.swift; sourceTree = "<group>"; };
+		D2B0B08A2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2B0B0672C1A7E1200F8D189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0B0772C1A7E1500F8D189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0B0812C1A7E1500F8D189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2B0B0612C1A7E1200F8D189 = {
+			isa = PBXGroup;
+			children = (
+				D2B0B06C2C1A7E1200F8D189 /* Organ Stopper */,
+				D2B0B07D2C1A7E1500F8D189 /* Organ StopperTests */,
+				D2B0B0872C1A7E1500F8D189 /* Organ StopperUITests */,
+				D2B0B06B2C1A7E1200F8D189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2B0B06B2C1A7E1200F8D189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0B06A2C1A7E1200F8D189 /* Organ Stopper.app */,
+				D2B0B07A2C1A7E1500F8D189 /* Organ StopperTests.xctest */,
+				D2B0B0842C1A7E1500F8D189 /* Organ StopperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2B0B06C2C1A7E1200F8D189 /* Organ Stopper */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */,
+				D2B0B06F2C1A7E1200F8D189 /* ContentView.swift */,
+				D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */,
+				D2B0B0732C1A7E1500F8D189 /* Preview Content */,
+			);
+			path = "Organ Stopper";
+			sourceTree = "<group>";
+		};
+		D2B0B0732C1A7E1500F8D189 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0B0742C1A7E1500F8D189 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2B0B07D2C1A7E1500F8D189 /* Organ StopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0B07E2C1A7E1500F8D189 /* Organ_StopperTests.swift */,
+			);
+			path = "Organ StopperTests";
+			sourceTree = "<group>";
+		};
+		D2B0B0872C1A7E1500F8D189 /* Organ StopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0B0882C1A7E1500F8D189 /* Organ_StopperUITests.swift */,
+				D2B0B08A2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift */,
+			);
+			path = "Organ StopperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2B0B0692C1A7E1200F8D189 /* Organ Stopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B0B08E2C1A7E1500F8D189 /* Build configuration list for PBXNativeTarget "Organ Stopper" */;
+			buildPhases = (
+				D2B0B0662C1A7E1200F8D189 /* Sources */,
+				D2B0B0672C1A7E1200F8D189 /* Frameworks */,
+				D2B0B0682C1A7E1200F8D189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Organ Stopper";
+			productName = "Organ Stopper";
+			productReference = D2B0B06A2C1A7E1200F8D189 /* Organ Stopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2B0B0792C1A7E1500F8D189 /* Organ StopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B0B0912C1A7E1500F8D189 /* Build configuration list for PBXNativeTarget "Organ StopperTests" */;
+			buildPhases = (
+				D2B0B0762C1A7E1500F8D189 /* Sources */,
+				D2B0B0772C1A7E1500F8D189 /* Frameworks */,
+				D2B0B0782C1A7E1500F8D189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2B0B07C2C1A7E1500F8D189 /* PBXTargetDependency */,
+			);
+			name = "Organ StopperTests";
+			productName = "Organ StopperTests";
+			productReference = D2B0B07A2C1A7E1500F8D189 /* Organ StopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2B0B0832C1A7E1500F8D189 /* Organ StopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B0B0942C1A7E1500F8D189 /* Build configuration list for PBXNativeTarget "Organ StopperUITests" */;
+			buildPhases = (
+				D2B0B0802C1A7E1500F8D189 /* Sources */,
+				D2B0B0812C1A7E1500F8D189 /* Frameworks */,
+				D2B0B0822C1A7E1500F8D189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2B0B0862C1A7E1500F8D189 /* PBXTargetDependency */,
+			);
+			name = "Organ StopperUITests";
+			productName = "Organ StopperUITests";
+			productReference = D2B0B0842C1A7E1500F8D189 /* Organ StopperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2B0B0622C1A7E1200F8D189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D2B0B0692C1A7E1200F8D189 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D2B0B0792C1A7E1500F8D189 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D2B0B0692C1A7E1200F8D189;
+					};
+					D2B0B0832C1A7E1500F8D189 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D2B0B0692C1A7E1200F8D189;
+					};
+				};
+			};
+			buildConfigurationList = D2B0B0652C1A7E1200F8D189 /* Build configuration list for PBXProject "Organ Stopper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2B0B0612C1A7E1200F8D189;
+			productRefGroup = D2B0B06B2C1A7E1200F8D189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2B0B0692C1A7E1200F8D189 /* Organ Stopper */,
+				D2B0B0792C1A7E1500F8D189 /* Organ StopperTests */,
+				D2B0B0832C1A7E1500F8D189 /* Organ StopperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2B0B0682C1A7E1200F8D189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B0B0752C1A7E1500F8D189 /* Preview Assets.xcassets in Resources */,
+				D2B0B0722C1A7E1500F8D189 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0B0782C1A7E1500F8D189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0B0822C1A7E1500F8D189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2B0B0662C1A7E1200F8D189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B0B0702C1A7E1200F8D189 /* ContentView.swift in Sources */,
+				D2B0B06E2C1A7E1200F8D189 /* Organ_StopperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0B0762C1A7E1500F8D189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B0B07F2C1A7E1500F8D189 /* Organ_StopperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0B0802C1A7E1500F8D189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B0B08B2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift in Sources */,
+				D2B0B0892C1A7E1500F8D189 /* Organ_StopperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2B0B07C2C1A7E1500F8D189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2B0B0692C1A7E1200F8D189 /* Organ Stopper */;
+			targetProxy = D2B0B07B2C1A7E1500F8D189 /* PBXContainerItemProxy */;
+		};
+		D2B0B0862C1A7E1500F8D189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2B0B0692C1A7E1200F8D189 /* Organ Stopper */;
+			targetProxy = D2B0B0852C1A7E1500F8D189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2B0B08C2C1A7E1500F8D189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2B0B08D2C1A7E1500F8D189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2B0B08F2C1A7E1500F8D189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Organ Stopper/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y5WLA6579;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scott.Organ-Stopper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2B0B0902C1A7E1500F8D189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Organ Stopper/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y5WLA6579;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scott.Organ-Stopper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2B0B0922C1A7E1500F8D189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y5WLA6579;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scott.Organ-StopperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Organ Stopper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Organ Stopper";
+			};
+			name = Debug;
+		};
+		D2B0B0932C1A7E1500F8D189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y5WLA6579;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scott.Organ-StopperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Organ Stopper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Organ Stopper";
+			};
+			name = Release;
+		};
+		D2B0B0952C1A7E1500F8D189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y5WLA6579;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scott.Organ-StopperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Organ Stopper";
+			};
+			name = Debug;
+		};
+		D2B0B0962C1A7E1500F8D189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y5WLA6579;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "scott.Organ-StopperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Organ Stopper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2B0B0652C1A7E1200F8D189 /* Build configuration list for PBXProject "Organ Stopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B0B08C2C1A7E1500F8D189 /* Debug */,
+				D2B0B08D2C1A7E1500F8D189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B0B08E2C1A7E1500F8D189 /* Build configuration list for PBXNativeTarget "Organ Stopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B0B08F2C1A7E1500F8D189 /* Debug */,
+				D2B0B0902C1A7E1500F8D189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B0B0912C1A7E1500F8D189 /* Build configuration list for PBXNativeTarget "Organ StopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B0B0922C1A7E1500F8D189 /* Debug */,
+				D2B0B0932C1A7E1500F8D189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B0B0942C1A7E1500F8D189 /* Build configuration list for PBXNativeTarget "Organ StopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B0B0952C1A7E1500F8D189 /* Debug */,
+				D2B0B0962C1A7E1500F8D189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2B0B0622C1A7E1200F8D189 /* Project object */;
+}
