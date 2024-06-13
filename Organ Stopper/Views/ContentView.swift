@@ -15,13 +15,15 @@ struct ContentView: View {
             Text(organ.name)
             List {
                 ForEach(organ.divisions, id: \.name) { division in
-                    Section {
-                        DisclosureGroup(division.name) {
+                    Section(header: DivisionHeader(divisionName: division.name)) {
+                            
+//                        DisclosureGroup(division.name) {
                             ForEach(division.stops, id: \.name) { stop in
                                 Text("\(stop.length.rawValue)' \(stop.name)")
                             }
-                        }
+//                        }
                     }
+                    .listRowBackground(Color.blue.ignoresSafeArea([.all]))
                 }
             }
         }

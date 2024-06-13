@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2A850E82C1A86F100F4C028 /* DivisionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A850E72C1A86F100F4C028 /* DivisionHeader.swift */; };
 		D2B0B06E2C1A7E1200F8D189 /* Organ_StopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */; };
 		D2B0B0722C1A7E1500F8D189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */; };
 		D2B0B0752C1A7E1500F8D189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0B0742C1A7E1500F8D189 /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2A850E72C1A86F100F4C028 /* DivisionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionHeader.swift; sourceTree = "<group>"; };
 		D2B0B06A2C1A7E1200F8D189 /* Organ Stopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Organ Stopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperApp.swift; sourceTree = "<group>"; };
 		D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				D2B0B0972C1A7E9E00F8D189 /* ContentView.swift */,
+				D2A850E72C1A86F100F4C028 /* DivisionHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				D2B0B0982C1A7E9E00F8D189 /* ContentView.swift in Sources */,
 				D2B0B0A22C1A810700F8D189 /* Organ.swift in Sources */,
 				D2B0B0A62C1A814300F8D189 /* Stop.swift in Sources */,
+				D2A850E82C1A86F100F4C028 /* DivisionHeader.swift in Sources */,
 				D2B0B0A42C1A812500F8D189 /* Division.swift in Sources */,
 				D2B0B06E2C1A7E1200F8D189 /* Organ_StopperApp.swift in Sources */,
 				D2B0B0A82C1A815900F8D189 /* PipeLength.swift in Sources */,
