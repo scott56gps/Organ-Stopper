@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D29EA1932FD0FE3700559518 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1922FD0FE3700559518 /* Piece.swift */; };
+		D29EA1952FD0FE9500559518 /* StopScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1942FD0FE9200559518 /* StopScheme.swift */; };
+		D29EA1982FD0FF4D00559518 /* StopCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1972FD0FF4A00559518 /* StopCue.swift */; };
+		D29EA19A2FD0FF6800559518 /* StopCueDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1992FD0FF6300559518 /* StopCueDetail.swift */; };
+		D29EA19C2FD0FFE700559518 /* ExpressionPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA19B2FD0FFE300559518 /* ExpressionPosition.swift */; };
+		D29EA19E2FD1002C00559518 /* StopFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA19D2FD1002A00559518 /* StopFamily.swift */; };
 		D2A850E82C1A86F100F4C028 /* DivisionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A850E72C1A86F100F4C028 /* DivisionHeader.swift */; };
 		D2B0B06E2C1A7E1200F8D189 /* Organ_StopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */; };
 		D2B0B0722C1A7E1500F8D189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */; };
@@ -18,7 +24,6 @@
 		D2B0B0A22C1A810700F8D189 /* Organ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0A12C1A810700F8D189 /* Organ.swift */; };
 		D2B0B0A42C1A812500F8D189 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0A32C1A812500F8D189 /* Division.swift */; };
 		D2B0B0A62C1A814300F8D189 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0A52C1A814300F8D189 /* Stop.swift */; };
-		D2B0B0A82C1A815900F8D189 /* PipeLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0A72C1A815900F8D189 /* PipeLength.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D29EA1922FD0FE3700559518 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		D29EA1942FD0FE9200559518 /* StopScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopScheme.swift; sourceTree = "<group>"; };
+		D29EA1972FD0FF4A00559518 /* StopCue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCue.swift; sourceTree = "<group>"; };
+		D29EA1992FD0FF6300559518 /* StopCueDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCueDetail.swift; sourceTree = "<group>"; };
+		D29EA19B2FD0FFE300559518 /* ExpressionPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionPosition.swift; sourceTree = "<group>"; };
+		D29EA19D2FD1002A00559518 /* StopFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopFamily.swift; sourceTree = "<group>"; };
 		D2A850E72C1A86F100F4C028 /* DivisionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionHeader.swift; sourceTree = "<group>"; };
 		D2B0B06A2C1A7E1200F8D189 /* Organ Stopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Organ Stopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperApp.swift; sourceTree = "<group>"; };
@@ -53,7 +64,6 @@
 		D2B0B0A12C1A810700F8D189 /* Organ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ.swift; sourceTree = "<group>"; };
 		D2B0B0A32C1A812500F8D189 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		D2B0B0A52C1A814300F8D189 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
-		D2B0B0A72C1A815900F8D189 /* PipeLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeLength.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +94,15 @@
 		D2A850E52C1A853800F4C028 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D29EA19D2FD1002A00559518 /* StopFamily.swift */,
+				D29EA19B2FD0FFE300559518 /* ExpressionPosition.swift */,
+				D29EA1992FD0FF6300559518 /* StopCueDetail.swift */,
+				D29EA1972FD0FF4A00559518 /* StopCue.swift */,
+				D29EA1942FD0FE9200559518 /* StopScheme.swift */,
 				D2B0B0A12C1A810700F8D189 /* Organ.swift */,
 				D2B0B0A32C1A812500F8D189 /* Division.swift */,
 				D2B0B0A52C1A814300F8D189 /* Stop.swift */,
-				D2B0B0A72C1A815900F8D189 /* PipeLength.swift */,
+				D29EA1922FD0FE3700559518 /* Piece.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,9 +307,14 @@
 				D2B0B0A22C1A810700F8D189 /* Organ.swift in Sources */,
 				D2B0B0A62C1A814300F8D189 /* Stop.swift in Sources */,
 				D2A850E82C1A86F100F4C028 /* DivisionHeader.swift in Sources */,
+				D29EA1932FD0FE3700559518 /* Piece.swift in Sources */,
+				D29EA1982FD0FF4D00559518 /* StopCue.swift in Sources */,
 				D2B0B0A42C1A812500F8D189 /* Division.swift in Sources */,
 				D2B0B06E2C1A7E1200F8D189 /* Organ_StopperApp.swift in Sources */,
-				D2B0B0A82C1A815900F8D189 /* PipeLength.swift in Sources */,
+				D29EA19C2FD0FFE700559518 /* ExpressionPosition.swift in Sources */,
+				D29EA19A2FD0FF6800559518 /* StopCueDetail.swift in Sources */,
+				D29EA19E2FD1002C00559518 /* StopFamily.swift in Sources */,
+				D29EA1952FD0FE9500559518 /* StopScheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

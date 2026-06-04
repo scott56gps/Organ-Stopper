@@ -8,6 +8,8 @@
 import Foundation
 
 struct Stop {
+    let id: Int
     let name: String
-    let length: PipeLength
+    let pitch: String?
+    let family: StopFamily
 }

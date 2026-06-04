@@ -9,5 +9,7 @@ import Foundation
 
 struct Division {
     let name: String
+    let hasExpression: Bool
+    let expressionPosition: ExpressionPosition?
     let stops: [Stop]
 }
