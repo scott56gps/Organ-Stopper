@@ -8,27 +8,31 @@
 import SwiftUI
 
 struct CueSelectView: View {
+    private struct CueSelection: Hashable {
+        var details: [StopCueDetail]
+        var index: Int
+    }
+    
     let schemeService: SchemeService
     let schemeId: Int
     let cues: [StopCue]
     
-    @State private var selectedCueDetailIndex: Int?
-    @State private var fetchedCueDetails: [StopCueDetail]?
+    @State private var allDetails: [StopCueDetail] = []
+    @State private var cueSelection: CueSelection?
     
     var body: some View {
         VStack {
             Text("Please select a cue:")
-            List(cues.enumerated(), id: \.id) { (index, cue) in
-                Button(cue.label ?? "\(index + 1)") {
-                    selectedCueDetailIndex = index
-                    Task {
-                        fetchedCueDetails = await schemeService
-                            .getCueDetails(schemeId: schemeId)
-                    }
+            List(cues.indices, id: \.self) { index in
+                Button(cues[index].label ?? "\(index + 1)") {
+                    cueSelection = CueSelection(details: allDetails, index: index)
                 }
             }
-            .navigationDestination(item: $fetchedCueDetails) { details in
-                CueDisplayView(cues: details, currentCue: details[selectedCueDetailIndex])
+            .navigationDestination(item: $cueSelection) { selection in
+                CueDisplayView(cues: selection.details, currentCue: selection.details[selection.index])
+            }
+            .task {
+                allDetails = await schemeService.getCueDetails(schemeId: schemeId)
             }
         }
     }
