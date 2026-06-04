@@ -5,7 +5,7 @@
 //  Created by Scott Nicholes on 6/3/26.
 //
 
-struct StopCueDetail {
+struct StopCueDetail: Hashable {
     let id: Int
     let label: String?
     let divisions: [Division]

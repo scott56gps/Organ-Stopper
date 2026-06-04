@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Stop {
+struct Stop: Hashable {
     let id: Int
     let name: String
     let pitch: String?

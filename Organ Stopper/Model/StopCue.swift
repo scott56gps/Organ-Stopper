@@ -9,3 +9,12 @@ struct StopCue {
     let id: Int
     let label: String?
 }
+
+extension StopCue {
+    static var previewData: [StopCue] {
+        [
+            .init(id: 1, label: "Loud"),
+            .init(id: 2, label: "Softer")
+        ]
+    }
+}

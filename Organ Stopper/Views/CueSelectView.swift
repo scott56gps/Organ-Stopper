@@ -20,17 +20,24 @@ struct CueSelectView: View {
             List(cues, id: \.id) { cue in
                 Button(cue.label ?? "Cue") {
                     Task {
-                        selectedCueDetail = await schemeService.getCueDetail(cue.id)
+                        selectedCueDetail = await schemeService
+                            .getCueDetail(cue.id)
                     }
                 }
-                .navigationDestination(item: $selectedCueDetail) { detail in
-                    CueDisplayView(cues: <#T##[StopCueDetail]#>, currentCue: <#T##StopCueDetail#>)
-                }
+            }
+            .navigationDestination(item: $selectedCueDetail) { detail in
+                CueDisplayView(cues: [detail], currentCue: detail)
             }
         }
     }
 }
 
 #Preview {
-    CueSelectView()
+    NavigationStack {
+        CueSelectView(
+            schemeService: SchemeService(),
+            schemeId: 1,
+            cues: StopCue.previewData
+        )
+    }
 }

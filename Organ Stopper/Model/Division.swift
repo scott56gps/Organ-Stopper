@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Division {
+struct Division: Hashable {
     let name: String
     let hasExpression: Bool
     let expressionPosition: ExpressionPosition?
