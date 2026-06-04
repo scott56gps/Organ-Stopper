@@ -13,3 +13,16 @@ struct Division {
     let expressionPosition: ExpressionPosition?
     let stops: [Stop]
 }
+
+extension Division {
+    static var previewData: [Division] {
+        [
+            Division(name: "Great", hasExpression: false, expressionPosition: nil,
+                     stops: Stop.previewData[.greatFlutes, default: []]),
+            Division(name: "Swell", hasExpression: true, expressionPosition: .Open,
+                     stops: Stop.previewData[.swellFlutes, default: []]),
+            Division(name: "Pedal", hasExpression: true, expressionPosition: .Open,
+                     stops: Stop.previewData[.pedalFlutes, default: []]),
+        ]
+    }
+}

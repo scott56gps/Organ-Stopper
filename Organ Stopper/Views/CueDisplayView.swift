@@ -7,19 +7,20 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    let organ = Organ.samples[0]
+struct CueDisplayView: View {
+    let cues: [StopCueDetail]
+    let currentCue: StopCueDetail
     
     var body: some View {
         VStack {
-            Text(organ.name)
+            Text(currentCue.label ?? "Cue \(cues.firstIndex(where: { $0.id == currentCue.id }))")
             List {
-                ForEach(organ.divisions, id: \.name) { division in
+                ForEach(currentCue.divisions, id: \.name) { division in
                     Section(
                         header: DivisionHeader(divisionName: division.name)
                     ) {
                         ForEach(division.stops, id: \.name) { stop in
-                            Text("\(stop.length.rawValue)' \(stop.name)")
+                            Text("\(stop.pitch ?? "")' \(stop.name)")
                         }
                     }
                     .listRowBackground(Color.blue.ignoresSafeArea([.all]))
@@ -30,5 +31,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    let previewData = StopCueDetail.previewData
+    CueDisplayView(cues: previewData, currentCue: previewData[0])
 }

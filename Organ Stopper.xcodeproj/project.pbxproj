@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D207B7E02FD21809006BA88D /* CueSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B7DF2FD21809006BA88D /* CueSelectView.swift */; };
 		D29EA1932FD0FE3700559518 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1922FD0FE3700559518 /* Piece.swift */; };
 		D29EA1952FD0FE9500559518 /* StopScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1942FD0FE9200559518 /* StopScheme.swift */; };
 		D29EA1982FD0FF4D00559518 /* StopCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1972FD0FF4A00559518 /* StopCue.swift */; };
@@ -20,7 +21,7 @@
 		D2B0B07F2C1A7E1500F8D189 /* Organ_StopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B07E2C1A7E1500F8D189 /* Organ_StopperTests.swift */; };
 		D2B0B0892C1A7E1500F8D189 /* Organ_StopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0882C1A7E1500F8D189 /* Organ_StopperUITests.swift */; };
 		D2B0B08B2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B08A2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift */; };
-		D2B0B0982C1A7E9E00F8D189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0972C1A7E9E00F8D189 /* ContentView.swift */; };
+		D2B0B0982C1A7E9E00F8D189 /* CueDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0972C1A7E9E00F8D189 /* CueDisplayView.swift */; };
 		D2B0B0A22C1A810700F8D189 /* Organ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0A12C1A810700F8D189 /* Organ.swift */; };
 		D2B0B0A42C1A812500F8D189 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0A32C1A812500F8D189 /* Division.swift */; };
 		D2B0B0A62C1A814300F8D189 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0A52C1A814300F8D189 /* Stop.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D207B7DF2FD21809006BA88D /* CueSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueSelectView.swift; sourceTree = "<group>"; };
 		D29EA1922FD0FE3700559518 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 		D29EA1942FD0FE9200559518 /* StopScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopScheme.swift; sourceTree = "<group>"; };
 		D29EA1972FD0FF4A00559518 /* StopCue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCue.swift; sourceTree = "<group>"; };
@@ -60,11 +62,15 @@
 		D2B0B0842C1A7E1500F8D189 /* Organ StopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Organ StopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0B0882C1A7E1500F8D189 /* Organ_StopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperUITests.swift; sourceTree = "<group>"; };
 		D2B0B08A2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D2B0B0972C1A7E9E00F8D189 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2B0B0972C1A7E9E00F8D189 /* CueDisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CueDisplayView.swift; sourceTree = "<group>"; };
 		D2B0B0A12C1A810700F8D189 /* Organ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ.swift; sourceTree = "<group>"; };
 		D2B0B0A32C1A812500F8D189 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		D2B0B0A52C1A814300F8D189 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D207B7E12FD2184E006BA88D /* Services */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Services; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D2B0B0672C1A7E1200F8D189 /* Frameworks */ = {
@@ -110,8 +116,9 @@
 		D2A850E62C1A854D00F4C028 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D2B0B0972C1A7E9E00F8D189 /* ContentView.swift */,
+				D2B0B0972C1A7E9E00F8D189 /* CueDisplayView.swift */,
 				D2A850E72C1A86F100F4C028 /* DivisionHeader.swift */,
+				D207B7DF2FD21809006BA88D /* CueSelectView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 		D2B0B06C2C1A7E1200F8D189 /* Organ Stopper */ = {
 			isa = PBXGroup;
 			children = (
+				D207B7E12FD2184E006BA88D /* Services */,
 				D2A850E62C1A854D00F4C028 /* Views */,
 				D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */,
 				D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */,
@@ -187,6 +195,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D207B7E12FD2184E006BA88D /* Services */,
 			);
 			name = "Organ Stopper";
 			productName = "Organ Stopper";
@@ -303,12 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B0B0982C1A7E9E00F8D189 /* ContentView.swift in Sources */,
+				D2B0B0982C1A7E9E00F8D189 /* CueDisplayView.swift in Sources */,
 				D2B0B0A22C1A810700F8D189 /* Organ.swift in Sources */,
 				D2B0B0A62C1A814300F8D189 /* Stop.swift in Sources */,
 				D2A850E82C1A86F100F4C028 /* DivisionHeader.swift in Sources */,
 				D29EA1932FD0FE3700559518 /* Piece.swift in Sources */,
 				D29EA1982FD0FF4D00559518 /* StopCue.swift in Sources */,
+				D207B7E02FD21809006BA88D /* CueSelectView.swift in Sources */,
 				D2B0B0A42C1A812500F8D189 /* Division.swift in Sources */,
 				D2B0B06E2C1A7E1200F8D189 /* Organ_StopperApp.swift in Sources */,
 				D29EA19C2FD0FFE700559518 /* ExpressionPosition.swift in Sources */,
@@ -478,7 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Organ Stopper/Preview Content\"";
-				DEVELOPMENT_TEAM = 5Y5WLA6579;
+				DEVELOPMENT_TEAM = ZULRH345LL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -507,7 +519,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Organ Stopper/Preview Content\"";
-				DEVELOPMENT_TEAM = 5Y5WLA6579;
+				DEVELOPMENT_TEAM = ZULRH345LL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
