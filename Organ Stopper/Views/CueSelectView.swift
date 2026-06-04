@@ -12,21 +12,23 @@ struct CueSelectView: View {
     let schemeId: Int
     let cues: [StopCue]
     
-    @State private var selectedCueDetail: StopCueDetail?
+    @State private var selectedCueDetailIndex: Int?
+    @State private var fetchedCueDetails: [StopCueDetail]?
     
     var body: some View {
         VStack {
             Text("Please select a cue:")
-            List(cues, id: \.id) { cue in
-                Button(cue.label ?? "Cue") {
+            List(cues.enumerated(), id: \.id) { (index, cue) in
+                Button(cue.label ?? "\(index + 1)") {
+                    selectedCueDetailIndex = index
                     Task {
-                        selectedCueDetail = await schemeService
-                            .getCueDetail(cue.id)
+                        fetchedCueDetails = await schemeService
+                            .getCueDetails(schemeId: schemeId)
                     }
                 }
             }
-            .navigationDestination(item: $selectedCueDetail) { detail in
-                CueDisplayView(cues: [detail], currentCue: detail)
+            .navigationDestination(item: $fetchedCueDetails) { details in
+                CueDisplayView(cues: details, currentCue: details[selectedCueDetailIndex])
             }
         }
     }
