@@ -29,7 +29,7 @@ struct CueSelectView: View {
                 }
             }
             .navigationDestination(item: $cueSelection) { selection in
-                CueDisplayView(cues: selection.details, currentCue: selection.details[selection.index])
+                CueDisplayView(cues: selection.details, currentIndex: selection.index)
             }
             .task {
                 allDetails = await schemeService.getCueDetails(schemeId: schemeId)

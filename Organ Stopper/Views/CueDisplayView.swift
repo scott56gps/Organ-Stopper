@@ -9,11 +9,13 @@ import SwiftUI
 
 struct CueDisplayView: View {
     let cues: [StopCueDetail]
-    let currentCue: StopCueDetail
+    let currentIndex: Int
     
+    var currentCue: StopCueDetail { cues[currentIndex] }
+
     var body: some View {
         VStack {
-            Text(currentCue.label ?? "Cue \(cues.firstIndex(where: { $0.id == currentCue.id }))")
+            Text(currentCue.label ?? "Cue \(currentIndex + 1)")
             List {
                 ForEach(currentCue.divisions, id: \.name) { division in
                     Section(
@@ -32,5 +34,5 @@ struct CueDisplayView: View {
 
 #Preview {
     let previewData = StopCueDetail.previewData
-    CueDisplayView(cues: previewData, currentCue: previewData[0])
+    CueDisplayView(cues: previewData, currentIndex: 0)
 }
