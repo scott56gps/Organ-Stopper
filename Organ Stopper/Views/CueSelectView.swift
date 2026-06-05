@@ -13,7 +13,7 @@ struct CueSelectView: View {
         var index: Int
     }
     
-    let schemeService: SchemeService
+    @EnvironmentObject var schemeService: SchemeService
     let schemeId: Int
     let cues: [StopCue]
     
@@ -41,7 +41,6 @@ struct CueSelectView: View {
 #Preview {
     NavigationStack {
         CueSelectView(
-            schemeService: SchemeService(),
             schemeId: 1,
             cues: StopCue.previewData
         )

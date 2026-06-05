@@ -14,6 +14,7 @@ struct Organ_StopperApp: App {
             NavigationStack {
                 Text("Hola")
             }
+            .environmentObject(SchemeService())
         }
     }
 }

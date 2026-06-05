@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Organ {
+struct Organ: Hashable {
     let id: Int
     let name: String
     let location: String

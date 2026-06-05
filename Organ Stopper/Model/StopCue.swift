@@ -5,7 +5,7 @@
 //  Created by Scott Nicholes on 6/3/26.
 //
 
-struct StopCue {
+struct StopCue: Hashable {
     let id: Int
     let label: String?
 }
