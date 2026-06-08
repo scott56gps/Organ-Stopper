@@ -12,9 +12,10 @@ struct Organ_StopperApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                Text("Hola")
+                PieceSelectView()
             }
             .environmentObject(SchemeService())
+            .environmentObject(PieceService())
         }
     }
 }

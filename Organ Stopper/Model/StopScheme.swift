@@ -15,6 +15,7 @@ struct StopScheme: Hashable {
 
 extension StopScheme {
     static var previewData: [StopScheme] = [
-        StopScheme(id: 1, name: "Home Organ", notes: nil, organ: Organ.previewData[2], stopCues: StopCue.previewData)
+        StopScheme(id: 1, name: "Home Organ", notes: nil, organ: Organ.previewData[2], stopCues: StopCue.previewData),
+        StopScheme(id: 1, name: "CUCC", notes: nil, organ: Organ.previewData[0], stopCues: StopCue.previewData)
     ]
 }

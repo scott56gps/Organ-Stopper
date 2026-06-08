@@ -25,15 +25,21 @@ struct CueSelectView: View {
             Text("Please select a cue:")
             List(cues.indices, id: \.self) { index in
                 Button(cues[index].label ?? "\(index + 1)") {
-                    cueSelection = CueSelection(details: allDetails, index: index)
+                    cueSelection = CueSelection(
+                        details: allDetails,
+                        index: index
+                    )
                 }
             }
-            .navigationDestination(item: $cueSelection) { selection in
-                CueDisplayView(cues: selection.details, currentIndex: selection.index)
-            }
-            .task {
-                allDetails = await schemeService.getCueDetails(schemeId: schemeId)
-            }
+        }
+        .navigationDestination(item: $cueSelection) { selection in
+            CueDisplayView(
+                cues: selection.details,
+                currentIndex: selection.index
+            )
+        }
+        .task {
+            allDetails = await schemeService.getCueDetails(schemeId: schemeId)
         }
     }
 }

@@ -13,8 +13,9 @@ struct StopCue: Hashable {
 extension StopCue {
     static var previewData: [StopCue] {
         [
-            .init(id: 1, label: "Loud"),
-            .init(id: 2, label: "Softer")
+            .init(id: 1, label: "Beginning"),
+            .init(id: 2, label: "mm 36"),
+            .init(id: 3, label: "mm 48")
         ]
     }
 }

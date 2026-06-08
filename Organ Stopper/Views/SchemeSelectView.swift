@@ -10,6 +10,8 @@ import SwiftUI
 struct SchemeSelectView: View {
     let piece: Piece
     
+    @State var selectedScheme: StopScheme?
+    
     var body: some View {
         VStack {
             Text("Select a scheme for \(piece.name)")
@@ -17,10 +19,13 @@ struct SchemeSelectView: View {
                 NavigationLink(value: scheme) {
                     Text(scheme.name)
                 }
+                .onTapGesture {
+                    selectedScheme = scheme
+                }
             }
-            .navigationDestination(for: StopScheme.self) { scheme in
-                CueSelectView(schemeId: scheme.id, cues: scheme.stopCues)
-            }
+        }
+        .navigationDestination(item: $selectedScheme) { scheme in
+            CueSelectView(schemeId: scheme.id, cues: scheme.stopCues)
         }
     }
 }
