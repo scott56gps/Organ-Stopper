@@ -15,7 +15,10 @@ struct SchemeSelectView: View {
     var body: some View {
         VStack {
             Text("Select a scheme for \(piece.name)")
-            List(piece.stopSchemes, id: \.self) { scheme in
+            BottomAnchoredScrollView(
+                items: piece.stopSchemes,
+                id: \.self
+            ) { scheme in
                 NavigationLink(value: scheme) {
                     Text(scheme.name)
                 }

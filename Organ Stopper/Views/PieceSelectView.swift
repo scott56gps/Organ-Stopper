@@ -15,11 +15,9 @@ struct PieceSelectView: View {
     var body: some View {
         VStack {
             Text("Piece Select")
-            List {
-                ForEach(pieces.indices, id: \.self) { index in
-                    Button(pieces[index].name) {
-                        pieceSelection = pieces[index]
-                    }
+            BottomAnchoredScrollView(items: pieces, id: \.self) { piece in
+                Button(piece.name) {
+                    pieceSelection = piece
                 }
             }
         }

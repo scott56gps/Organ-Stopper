@@ -23,12 +23,11 @@ struct CueSelectView: View {
     var body: some View {
         VStack {
             Text("Please select a cue:")
-            List(cues.indices, id: \.self) { index in
-                Button(cues[index].label ?? "\(index + 1)") {
-                    cueSelection = CueSelection(
-                        details: allDetails,
-                        index: index
-                    )
+            BottomAnchoredScrollView(items: cues, id: \.self) { cue in
+                if let index = allDetails.firstIndex(where: { $0.id == cue.id }) {
+                    Button(cue.label ?? "Cue \(index + 1)") {
+                        cueSelection = CueSelection(details: allDetails, index: index)
+                    }
                 }
             }
         }
