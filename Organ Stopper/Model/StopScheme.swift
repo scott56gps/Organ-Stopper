@@ -12,3 +12,9 @@ struct StopScheme: Hashable {
     let organ: Organ
     let stopCues: [StopCue] 
 }
+
+extension StopScheme {
+    static var previewData: [StopScheme] = [
+        StopScheme(id: 1, name: "Home Organ", notes: nil, organ: Organ.previewData[2], stopCues: StopCue.previewData)
+    ]
+}

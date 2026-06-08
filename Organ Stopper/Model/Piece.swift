@@ -11,3 +11,11 @@ struct Piece: Hashable {
     let composer: String?
     let stopSchemes: [StopScheme]
 }
+
+extension Piece {
+    static var previewData: [Piece] {
+        [
+            Piece(id: 1, name: "Wachet Auf", composer: "JS Bach", stopSchemes: StopScheme.previewData)
+        ]
+    }
+}
