@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D207B7E02FD21809006BA88D /* CueSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B7DF2FD21809006BA88D /* CueSelectView.swift */; };
 		D21973BC2FD36069000DA713 /* SchemeSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21973BB2FD36064000DA713 /* SchemeSelectView.swift */; };
+		D21973C02FD364B0000DA713 /* PieceSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21973BF2FD364B0000DA713 /* PieceSelectView.swift */; };
 		D29EA1932FD0FE3700559518 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1922FD0FE3700559518 /* Piece.swift */; };
 		D29EA1952FD0FE9500559518 /* StopScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1942FD0FE9200559518 /* StopScheme.swift */; };
 		D29EA1982FD0FF4D00559518 /* StopCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1972FD0FF4A00559518 /* StopCue.swift */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		D207B7DF2FD21809006BA88D /* CueSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueSelectView.swift; sourceTree = "<group>"; };
 		D21973BB2FD36064000DA713 /* SchemeSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeSelectView.swift; sourceTree = "<group>"; };
+		D21973BF2FD364B0000DA713 /* PieceSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceSelectView.swift; sourceTree = "<group>"; };
 		D29EA1922FD0FE3700559518 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 		D29EA1942FD0FE9200559518 /* StopScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopScheme.swift; sourceTree = "<group>"; };
 		D29EA1972FD0FF4A00559518 /* StopCue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCue.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				D2B0B0972C1A7E9E00F8D189 /* CueDisplayView.swift */,
 				D2A850E72C1A86F100F4C028 /* DivisionHeader.swift */,
 				D207B7DF2FD21809006BA88D /* CueSelectView.swift */,
+				D21973BF2FD364B0000DA713 /* PieceSelectView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D21973BC2FD36069000DA713 /* SchemeSelectView.swift in Sources */,
+				D21973C02FD364B0000DA713 /* PieceSelectView.swift in Sources */,
 				D2B0B0982C1A7E9E00F8D189 /* CueDisplayView.swift in Sources */,
 				D2B0B0A22C1A810700F8D189 /* Organ.swift in Sources */,
 				D2B0B0A62C1A814300F8D189 /* Stop.swift in Sources */,

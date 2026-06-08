@@ -5,7 +5,7 @@
 //  Created by Scott Nicholes on 6/3/26.
 //
 
-struct Piece {
+struct Piece: Hashable {
     let id: Int
     let name: String
     let composer: String?
