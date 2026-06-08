@@ -12,7 +12,7 @@ struct BottomAnchoredScrollView<Content: View>: View {
     
     var body: some View {
         ScrollView {
-            LazyVStack(pinnedViews: .sectionHeaders) {
+            LazyVStack {
                content()
             }
         }

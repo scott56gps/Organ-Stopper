@@ -16,7 +16,7 @@ struct CueDisplayView: View {
     var body: some View {
         VStack {
             Text(currentCue.label ?? "Cue \(currentIndex + 1)")
-            List {
+            BottomAnchoredScrollView {
                 ForEach(currentCue.divisions, id: \.name) { division in
                     Section(
                         header: DivisionHeader(divisionName: division.name)
