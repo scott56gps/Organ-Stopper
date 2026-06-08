@@ -7,26 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D207B7E02FD21809006BA88D /* CueSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D207B7DF2FD21809006BA88D /* CueSelectView.swift */; };
-		D21973BC2FD36069000DA713 /* SchemeSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21973BB2FD36064000DA713 /* SchemeSelectView.swift */; };
-		D21973C02FD364B0000DA713 /* PieceSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21973BF2FD364B0000DA713 /* PieceSelectView.swift */; };
-		D29EA1932FD0FE3700559518 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1922FD0FE3700559518 /* Piece.swift */; };
-		D29EA1952FD0FE9500559518 /* StopScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1942FD0FE9200559518 /* StopScheme.swift */; };
-		D29EA1982FD0FF4D00559518 /* StopCue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1972FD0FF4A00559518 /* StopCue.swift */; };
-		D29EA19A2FD0FF6800559518 /* StopCueDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA1992FD0FF6300559518 /* StopCueDetail.swift */; };
-		D29EA19C2FD0FFE700559518 /* ExpressionPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA19B2FD0FFE300559518 /* ExpressionPosition.swift */; };
-		D29EA19E2FD1002C00559518 /* StopFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EA19D2FD1002A00559518 /* StopFamily.swift */; };
-		D2A850E82C1A86F100F4C028 /* DivisionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A850E72C1A86F100F4C028 /* DivisionHeader.swift */; };
 		D2B0B06E2C1A7E1200F8D189 /* Organ_StopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */; };
 		D2B0B0722C1A7E1500F8D189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */; };
-		D2B0B0752C1A7E1500F8D189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0B0742C1A7E1500F8D189 /* Preview Assets.xcassets */; };
 		D2B0B07F2C1A7E1500F8D189 /* Organ_StopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B07E2C1A7E1500F8D189 /* Organ_StopperTests.swift */; };
 		D2B0B0892C1A7E1500F8D189 /* Organ_StopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0882C1A7E1500F8D189 /* Organ_StopperUITests.swift */; };
 		D2B0B08B2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B08A2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift */; };
-		D2B0B0982C1A7E9E00F8D189 /* CueDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0972C1A7E9E00F8D189 /* CueDisplayView.swift */; };
-		D2B0B0A22C1A810700F8D189 /* Organ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0A12C1A810700F8D189 /* Organ.swift */; };
-		D2B0B0A42C1A812500F8D189 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0A32C1A812500F8D189 /* Division.swift */; };
-		D2B0B0A62C1A814300F8D189 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0B0A52C1A814300F8D189 /* Stop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,33 +32,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D207B7DF2FD21809006BA88D /* CueSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueSelectView.swift; sourceTree = "<group>"; };
-		D21973BB2FD36064000DA713 /* SchemeSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeSelectView.swift; sourceTree = "<group>"; };
-		D21973BF2FD364B0000DA713 /* PieceSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceSelectView.swift; sourceTree = "<group>"; };
-		D29EA1922FD0FE3700559518 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
-		D29EA1942FD0FE9200559518 /* StopScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopScheme.swift; sourceTree = "<group>"; };
-		D29EA1972FD0FF4A00559518 /* StopCue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCue.swift; sourceTree = "<group>"; };
-		D29EA1992FD0FF6300559518 /* StopCueDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCueDetail.swift; sourceTree = "<group>"; };
-		D29EA19B2FD0FFE300559518 /* ExpressionPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionPosition.swift; sourceTree = "<group>"; };
-		D29EA19D2FD1002A00559518 /* StopFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopFamily.swift; sourceTree = "<group>"; };
-		D2A850E72C1A86F100F4C028 /* DivisionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionHeader.swift; sourceTree = "<group>"; };
 		D2B0B06A2C1A7E1200F8D189 /* Organ Stopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Organ Stopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperApp.swift; sourceTree = "<group>"; };
 		D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2B0B0742C1A7E1500F8D189 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2B0B07A2C1A7E1500F8D189 /* Organ StopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Organ StopperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0B07E2C1A7E1500F8D189 /* Organ_StopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperTests.swift; sourceTree = "<group>"; };
 		D2B0B0842C1A7E1500F8D189 /* Organ StopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Organ StopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0B0882C1A7E1500F8D189 /* Organ_StopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperUITests.swift; sourceTree = "<group>"; };
 		D2B0B08A2C1A7E1500F8D189 /* Organ_StopperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ_StopperUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D2B0B0972C1A7E9E00F8D189 /* CueDisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CueDisplayView.swift; sourceTree = "<group>"; };
-		D2B0B0A12C1A810700F8D189 /* Organ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organ.swift; sourceTree = "<group>"; };
-		D2B0B0A32C1A812500F8D189 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
-		D2B0B0A52C1A814300F8D189 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D207B7E12FD2184E006BA88D /* Services */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Services; sourceTree = "<group>"; };
+		D2BE249D2FD7327C00ACC943 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+		D2BE24AC2FD7328200ACC943 /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		D2BE24B72FD7328C00ACC943 /* Preview Content */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Preview Content"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,34 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2A850E52C1A853800F4C028 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D29EA19D2FD1002A00559518 /* StopFamily.swift */,
-				D29EA19B2FD0FFE300559518 /* ExpressionPosition.swift */,
-				D29EA1992FD0FF6300559518 /* StopCueDetail.swift */,
-				D29EA1972FD0FF4A00559518 /* StopCue.swift */,
-				D29EA1942FD0FE9200559518 /* StopScheme.swift */,
-				D2B0B0A12C1A810700F8D189 /* Organ.swift */,
-				D2B0B0A32C1A812500F8D189 /* Division.swift */,
-				D2B0B0A52C1A814300F8D189 /* Stop.swift */,
-				D29EA1922FD0FE3700559518 /* Piece.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D2A850E62C1A854D00F4C028 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				D21973BB2FD36064000DA713 /* SchemeSelectView.swift */,
-				D2B0B0972C1A7E9E00F8D189 /* CueDisplayView.swift */,
-				D2A850E72C1A86F100F4C028 /* DivisionHeader.swift */,
-				D207B7DF2FD21809006BA88D /* CueSelectView.swift */,
-				D21973BF2FD364B0000DA713 /* PieceSelectView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		D2B0B0612C1A7E1200F8D189 = {
 			isa = PBXGroup;
 			children = (
@@ -153,21 +98,13 @@
 			isa = PBXGroup;
 			children = (
 				D207B7E12FD2184E006BA88D /* Services */,
-				D2A850E62C1A854D00F4C028 /* Views */,
+				D2BE249D2FD7327C00ACC943 /* Views */,
 				D2B0B06D2C1A7E1200F8D189 /* Organ_StopperApp.swift */,
 				D2B0B0712C1A7E1500F8D189 /* Assets.xcassets */,
-				D2B0B0732C1A7E1500F8D189 /* Preview Content */,
-				D2A850E52C1A853800F4C028 /* Model */,
+				D2BE24B72FD7328C00ACC943 /* Preview Content */,
+				D2BE24AC2FD7328200ACC943 /* Model */,
 			);
 			path = "Organ Stopper";
-			sourceTree = "<group>";
-		};
-		D2B0B0732C1A7E1500F8D189 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D2B0B0742C1A7E1500F8D189 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		D2B0B07D2C1A7E1500F8D189 /* Organ StopperTests */ = {
@@ -204,6 +141,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				D207B7E12FD2184E006BA88D /* Services */,
+				D2BE249D2FD7327C00ACC943 /* Views */,
+				D2BE24AC2FD7328200ACC943 /* Model */,
+				D2BE24B72FD7328C00ACC943 /* Preview Content */,
 			);
 			name = "Organ Stopper";
 			productName = "Organ Stopper";
@@ -294,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B0B0752C1A7E1500F8D189 /* Preview Assets.xcassets in Resources */,
 				D2B0B0722C1A7E1500F8D189 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,21 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21973BC2FD36069000DA713 /* SchemeSelectView.swift in Sources */,
-				D21973C02FD364B0000DA713 /* PieceSelectView.swift in Sources */,
-				D2B0B0982C1A7E9E00F8D189 /* CueDisplayView.swift in Sources */,
-				D2B0B0A22C1A810700F8D189 /* Organ.swift in Sources */,
-				D2B0B0A62C1A814300F8D189 /* Stop.swift in Sources */,
-				D2A850E82C1A86F100F4C028 /* DivisionHeader.swift in Sources */,
-				D29EA1932FD0FE3700559518 /* Piece.swift in Sources */,
-				D29EA1982FD0FF4D00559518 /* StopCue.swift in Sources */,
-				D207B7E02FD21809006BA88D /* CueSelectView.swift in Sources */,
-				D2B0B0A42C1A812500F8D189 /* Division.swift in Sources */,
 				D2B0B06E2C1A7E1200F8D189 /* Organ_StopperApp.swift in Sources */,
-				D29EA19C2FD0FFE700559518 /* ExpressionPosition.swift in Sources */,
-				D29EA19A2FD0FF6800559518 /* StopCueDetail.swift in Sources */,
-				D29EA19E2FD1002C00559518 /* StopFamily.swift in Sources */,
-				D29EA1952FD0FE9500559518 /* StopScheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
