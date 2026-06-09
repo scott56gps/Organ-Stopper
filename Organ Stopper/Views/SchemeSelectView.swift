@@ -16,10 +16,7 @@ struct SchemeSelectView: View {
         VStack {
             Text("Select a scheme for \(piece.name)")
             List(piece.stopSchemes, id: \.self) { scheme in
-                NavigationLink(value: scheme) {
-                    Text(scheme.name)
-                }
-                .onTapGesture {
+                Button(scheme.name) {
                     selectedScheme = scheme
                 }
             }
