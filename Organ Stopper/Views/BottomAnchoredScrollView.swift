@@ -7,17 +7,13 @@
 
 import SwiftUI
 
-struct BottomAnchoredScrollView<Item, ID: Hashable, Row: View>: View {
-    let items: [Item]
-    let id: KeyPath<Item, ID>
-    @ViewBuilder let row: (Item) -> Row
+struct BottomAnchoredScrollView<Content: View>: View {
+    @ViewBuilder let content: () -> Content
     
     var body: some View {
         ScrollView {
             LazyVStack {
-                ForEach(items, id: id) { item in
-                    row(item)
-                }
+               content()
             }
         }
         .defaultScrollAnchor(.bottom)
@@ -30,7 +26,11 @@ struct BottomAnchoredScrollView<Item, ID: Hashable, Row: View>: View {
         "Como",
         "esta?"
     ]
-    BottomAnchoredScrollView(items: listOfStrings, id: \.self) {
-        Text($0)
+    BottomAnchoredScrollView {
+        Text("Hey there!")
+        Button("Button") { }
+        ForEach(listOfStrings, id: \.self) {
+            Text($0)
+        }
     }
 }
