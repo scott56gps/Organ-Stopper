@@ -23,8 +23,13 @@ struct PieceSelectView: View {
                 }
             }
         }
-        .navigationDestination(item: $pieceSelection) { selection in
-            SchemeSelectView(piece: selection)
+        .navigationDestination(item: $pieceSelection) { piece in
+            if piece.stopSchemes.count == 1 {
+                let stopScheme = piece.stopSchemes[0]
+                CueSelectView(schemeId: stopScheme.id, cues: stopScheme.stopCues)
+            } else {
+                SchemeSelectView(piece: piece)
+            }
         }
         .task {
             pieces = await pieceService.getPieces()
