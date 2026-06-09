@@ -11,7 +11,11 @@ import SwiftUI
 struct Organ_StopperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                PieceSelectView()
+            }
+            .environmentObject(SchemeService())
+            .environmentObject(PieceService())
         }
     }
 }
