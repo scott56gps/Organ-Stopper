@@ -32,6 +32,7 @@ extension Stop {
             .greatFlutes: [
                 .init(id: 2, name: "Hohlflote", pitch: "8", family: .Flute),
                 .init(id: 3, name: "Chimney Flute", pitch: "4", family: .Flute),
+                .init(id: 14, name: "Blockflote", pitch: "8", family: .Flute)
             ],
             .swellPrincipals: [
                 .init(id: 4, name: "Diapason", pitch: "8", family: .Principal),
